@@ -8,7 +8,7 @@ import java.io.File;
 import java.sql.*;
 
 public class DatabaseManager {
-    private static final String URL = "jdbc:mysql://localhost/statistics_db?useSSL=false";
+    private static final String URL = "jdbc:mysql://localhost:3306/statistics_db?useSSL=false";
     private static final String DRIVER = "com.mysql.jdbc.Driver";
     private static final String USERNAME = "root";
     private static final String PASSWORD = "root";
